@@ -1,0 +1,6 @@
+SQLAlchemy
+Flask-SQLAlchemy
+Flask
+Requests
+flask-migrate
+flask-login
