@@ -24,8 +24,7 @@ class Home_Test_Cases(unittest.TestCase):
     def tearDown(self):
         pass
 
-    # test method
-    def send_http_get_request_and_check_for_200(self):
+    def test_http_get_request_success(self):
         # send http get request to the application
         # on the specific path
         result = self.app.get('/')
