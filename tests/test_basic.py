@@ -31,6 +31,9 @@ class Home_Test_Cases(unittest.TestCase):
         # assert the status code of the response
         self.assertEqual(result.status_code, 200, "[Home_Test_Cases::test_home_status_code]")
 
+    def test_fail_this(self):
+        self.assertEqual(1,2, "failure")
+
 # runs the unit tests in the module
 if __name__ == '__main__':
     unittest.main()
